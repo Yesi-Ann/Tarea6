@@ -1,4 +1,5 @@
 # t5
+explorer C:\ruta\a\tu\proyecto\t5\build\app\outputs\flutter-apk\
 
 A new Flutter project.
 
