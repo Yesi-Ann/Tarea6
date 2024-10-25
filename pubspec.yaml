@@ -1,0 +1,33 @@
+name: t5
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.2
+  cupertino_icons: ^1.0.8  
+  url_launcher: ^6.1.7  
+  html: ^0.15.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0  # Actualizado
+  flutter_launcher_icons: ^0.9.2  # Agrega esta línea
+
+flutter:
+  uses-material-design: true
+  assets:
+    - lib/Assets/1.jpg  # Asegúrate de que la ruta sea correcta
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "lib/Assets/1.jpg"  # Asegúrate de que la ruta sea correcta
+
